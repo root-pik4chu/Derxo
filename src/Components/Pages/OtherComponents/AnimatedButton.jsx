@@ -51,7 +51,7 @@ const AnimatedButton = () => {
   return (
     <button
       id="animated-button"
-      className="relative px-15 py-4 bg-green-800 text-white text-lg font-semibold border-2 rounded-full overflow-hidden group"
+      className="relative top-[3vw] px-15 py-4 bg-green-800 text-white text-lg font-semibold border-2 rounded-full overflow-hidden group"
     >
       <span
         id="flair"

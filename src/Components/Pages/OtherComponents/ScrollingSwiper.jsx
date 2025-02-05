@@ -27,7 +27,7 @@ const ScrollingSwiper = () => {
 
   return (
     <div>
-      <div className="w-[100vw] h-[22vh] px-10">
+      <div className="w-[100vw] h-[22vh] px-10 relative top-[5vw]">
       <Swiper
       slidesPerView={5.5}
       spaceBetween={30}

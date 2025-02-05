@@ -21,7 +21,7 @@ const PageOne = () => {
 
       <img className='absolute z-0 top-0 left-[70%] ' src={absImg} alt="" />
         <NavBar />
-        <div className="w-full h-[50vh] relative top-[2vw]   flex justify-between items-center pl-[2vw] ">
+        <div className="w-full h-[50vh] relative top-[8vw]   flex justify-between items-center pl-[2vw] ">
         <div className="heading text-[5vw] w-[50%] leading-none z-20 overflow-hidden">
           
           <h1 className="overflow-hidden">

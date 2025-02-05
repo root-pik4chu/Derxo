@@ -9,9 +9,16 @@ import { motion } from 'framer-motion';
 const PageOne = () => {
   return (
     <>
-      <div className='w-full h-screen bg-[#EBF9EB] flex-col gap-10 overflow-hidden relative'>
+      <motion.div className='w-full h-screen bg-[#EBF9EB] flex-col gap-10 overflow-hidden relative'
+      
+      initial={{  opacity:0}}
+      animate={{ opacity:1}}
+      transition={{ duration: 1.5, ease:'backInOut' }}
+      exit={{}}
 
-        
+      >
+
+
       <img className='absolute z-0 top-0 left-[70%] ' src={absImg} alt="" />
         <NavBar />
         <div className="w-full h-[50vh] relative top-[2vw]   flex justify-between items-center pl-[2vw] ">
@@ -139,7 +146,7 @@ const PageOne = () => {
         <AnimatedButton />
         </div>
    
-    </div>
+    </motion.div>
     </>
     
   )

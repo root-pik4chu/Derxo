@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+    <ReactLenis root>
      <MouseFollower />
     <div className="w-full h-full overflow-x-hidden font-[f2]">
        
@@ -27,6 +28,7 @@ function App() {
       <PageOne />
       <PageTwo />
     </div>
+    </ReactLenis>
     </>
   )
 }

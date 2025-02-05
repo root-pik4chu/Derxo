@@ -77,3 +77,18 @@ const AnimatedButton = () => {
 };
 
 export default AnimatedButton;
+
+
+{/* <h1 className="overflow-hidden group-hover:text-zinc-900">
+                <motion.span
+                initial={{y:"100%"}}
+                whileInView={{y:0}}
+                transition={{duration:1, ease:"backInOut" , delay: 0.1}}
+                viewport={{once:true}}
+                className="inline-block"
+              >
+                Browse  all Categories
+
+              </motion.span>
+              </h1> */}
+

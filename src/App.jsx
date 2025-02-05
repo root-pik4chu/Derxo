@@ -5,15 +5,16 @@ import './App.css'
 import PageOne from './Components/Pages/PageOne'
 import MouseFollower from './Components/MouseFollower/MouseFollower'
 import AnimatedButton from './Components/Pages/OtherComponents/AnimatedButton'
-import LocomotiveScroll from 'locomotive-scroll';
+
 import PageTwo from './Components/Pages/PageTwo'
 import ContactInfo from './Components/Pages/OtherComponents/ContactInfo'
+import { ReactLenis, useLenis } from 'lenis/react'
 
 
-
-
-const locomotiveScroll = new LocomotiveScroll();
 function App() {
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  })
   const [count, setCount] = useState(0)
 
   return (

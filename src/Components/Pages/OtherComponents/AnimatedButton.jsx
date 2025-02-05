@@ -58,8 +58,8 @@ const AnimatedButton = () => {
         className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none bg-white"
         style={{ width: 0, height: 0 }}
       />
-      <span className="relative z-10 transition-colors duration-500 group-hover:text-zinc-900">
-      <h1 className="overflow-hidden">
+      <span className="relative z-10 transition-colors duration-500 ">
+      <h1 className="overflow-hidden group-hover:text-zinc-900">
                 <motion.span
                 initial={{y:"100%"}}
                 whileInView={{y:0}}
